@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bmi Calculator</title>
+  <link href="CSS/styles.css" rel="stylesheet">
+  <link rel="icon" href="icons/bmi.ico">
+</head>
+
+<body>
+  <h1> <%= kindOfDay%> </h1>
+  <div>
+    <h2>BMI Calculator</h1>
+      <form action="/" method="post">
+        <input type="text" name="weight" placeholder="weight(kg)" id="h">
+        <input type="text" name="height" placeholder="height(m)" id="w">
+        <button id="btn" type="submit" name="submit">Calculate Bmi</button>
+      </form>
+      <h3>You Bmi is <%= BmiResult %> </h3>
+      <h3> <%= myMessage %> </h3>
+  </div>
+<footer>
+  <p>Made with ❤️ by Anisimov Oleg.</p>
+</footer>
+</body>
+</html>
